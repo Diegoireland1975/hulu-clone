@@ -317,7 +317,7 @@ h4 {
 /* Live Tv */
 .live-tv {
   background: #151516;
-  padding: 3rem;
+  padding: 3rem 2rem;
 }
 .live-tv .container {
   padding: 7rem 1rem;
@@ -330,6 +330,36 @@ h4 {
   text-transform: uppercase;
   font-size: 1.1rem;
   margin-top: 1.2rem;
+}
+
+/* LIVE SPORTS */
+
+.live-sports {
+  background: url("../img/live-sports-small.jpg") no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+}
+.live-sports-logos {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.live-sports-logos img {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: contain;
+  margin: 2rem 0 1rem;
+  margin-right: 1rem;
+  background: #fff;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.live-sports-content {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  max-width: 300px;
 }
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
@@ -377,6 +407,14 @@ h4 {
   }
   .covers .cover-text h3 {
     font-size: 1.3rem;
+  }
+
+  .live-sports {
+    background: url("../img/live-sports.jpg") no-repeat center center/cover;
+  }
+
+  .live-sports-content {
+    max-width: 550px;
   }
 }
 
