@@ -132,22 +132,13 @@
 
   </div>
 </section>
-<!-- tabs -->
-<section class="tabs flex">
-  <div id="tab-1" class="tab-item tab-border">
-    <p>LIVE SPORTS</p>
-  </div>
-  <div id="tab-2" class="tab-item">
-    <p>BREAKING NEWS</p>
-  </div>
-  <div id="tab-3" class="tab-item">
-    <p>BIGGEST EVENTS</p>
-  </div>
-</section>
+
 
 <div class="tab-content">
   <!-- Live Sports -->
-  <section class="live-sports tab-content-item" id="tab-1-content show">
+  <input type="radio" id="live" name="my-tabs" checked="checked">
+  <label for="live">LIVE SPORTS</label>
+  <section class="live-sports tab-content-item" id="tab-1-content" id="live-sports">
     <!-- tab-1 -->
 
     <div class="live-sports-content">
@@ -171,6 +162,8 @@
   </section>
 
   <!-- Breaking news -->
+  <input type="radio" id="news" name="my-tabs">
+  <label for="news">BREAKING NEWS</label>
   <section class="breaking-news tab-content-item" id="tab-2-content">
     <!-- tab-2 -->
 
@@ -194,6 +187,8 @@
   </section>
 
   <!-- Biggest Events -->
+  <input type="radio" id="events" name="my-tabs">
+  <label for="events">BIGGEST EVENTS</label>
   <section class="biggest-events tab-content-item" id="tab-3-content">
     <!-- tab-3 -->
 
