@@ -381,6 +381,7 @@ h4 {
   }
 }
 
+/* Tab */
 .tab-content {
   display: flex;
   flex-wrap: wrap;
@@ -702,5 +703,18 @@ h4 {
     margin: 0 auto;
     padding-top: 16px;
     font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1800px;
+  }
+
+  .live-sports-content,
+  .breaking-news-content,
+  .biggest-events-content {
+    padding: 15rem 2rem;
+    padding-left: 8rem;
   }
 }
